@@ -3,36 +3,43 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="115.0" y="309.0">netscape</node>
-    <node x="334.0" y="235.0">META-INF</node>
-    <node x="115.0" y="383.0">javafx</node>
-    <node x="115.0" y="531.0">org</node>
-    <node x="315.0" y="309.0">images</node>
-    <node x="469.0" y="383.0">impl</node>
-    <node x="94.5" y="235.0">tasks.controller</node>
-    <node x="366.0" y="87.0">groovyjarjarasm</node>
-    <node x="294.0" y="383.0">javax</node>
-    <node x="115.0" y="457.0">fxml</node>
-    <node x="115.0" y="13.0">toolbarButtonGraphics</node>
-    <node x="406.0" y="13.0">groovyjarjarpicocli</node>
-    <node x="504.0" y="309.0">groovy</node>
-    <node x="115.0" y="87.0">groovyjarjarantlr</node>
-    <node x="445.0" y="531.0">jdk</node>
-    <node x="90.0" y="174.5">tasks.services</node>
-    <node x="455.0" y="457.0">java</node>
-    <node x="285.0" y="457.0">com</node>
-    <node x="280.0" y="531.0">sun</node>
-    <node x="-92.0" y="383.0">tasks.view</node>
-    <node x="-98.0" y="309.0">tasks.model</node>
+    <node x="145.5" y="836.0">groovy.cli</node>
+    <node x="163.0" y="570.0">netscape</node>
+    <node x="348.0" y="716.0">org</node>
+    <node x="-77.5" y="836.0">groovy.io</node>
+    <node x="731.0" y="643.0">impl</node>
+    <node x="-98.0" y="643.0">groovy.inspect</node>
+    <node x="-127.0" y="490.0">groovy.time</node>
+    <node x="357.0" y="643.0">fxml</node>
+    <node x="163.0" y="59.0">groovyjarjarpicocli</node>
+    <node x="112.5" y="424.0">groovy.transform</node>
+    <node x="-126.5" y="424.0">groovy.lang</node>
+    <node x="544.0" y="643.0">com</node>
+    <node x="140.5" y="306.0">groovy.xml</node>
+    <node x="637.0" y="424.0">META-INF</node>
+    <node x="594.0" y="570.0">javafx</node>
+    <node x="-85.5" y="776.0">groovy.text</node>
+    <node x="386.0" y="570.0">images</node>
+    <node x="-122.0" y="366.0">groovy.util</node>
+    <node x="106.5" y="490.0">groovy.namespace</node>
+    <node x="443.0" y="132.0">groovyjarjarasm</node>
+    <node x="163.0" y="643.0">javax</node>
+    <node x="132.0" y="366.0">groovy.grape</node>
+    <node x="163.0" y="-14.0">toolbarButtonGraphics</node>
+    <node x="153.0" y="776.0">groovy.json</node>
+    <node x="163.0" y="132.0">groovyjarjarantlr</node>
+    <node x="708.0" y="716.0">jdk</node>
+    <node x="-77.0" y="306.0">groovy.ui</node>
+    <node x="163.0" y="716.0">java</node>
+    <node x="-93.0" y="716.0">groovy.beans</node>
+    <node x="528.0" y="716.0">sun</node>
+    <node x="-100.5" y="570.0">groovy.security</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="0.5784832451499118" showDependencies="true" x="206.5" y="254.14329268292687" />
+  <settings layout="Hierarchic" zoom="0.5955784061696657" showDependencies="true" x="330.94891660911594" y="576.8654199758284" />
   <SelectedNodes>
-    <node>tasks.view</node>
-    <node>tasks.controller</node>
-    <node>tasks.services</node>
-    <node>tasks.model</node>
+    <node>groovy.xml</node>
   </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
