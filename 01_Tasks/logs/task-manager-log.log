@@ -27,3 +27,33 @@
 2024-03-19 15:23:56 INFO  Main:35 - saved data reading
 2024-03-19 15:23:56 INFO  Main:40 - application start
 2024-03-19 15:23:56 INFO  Controller:74 - Main controller initializing
+2024-03-19 17:55:39 INFO  Main:35 - saved data reading
+2024-03-19 17:55:39 INFO  Main:40 - application start
+2024-03-19 17:55:39 INFO  Controller:74 - Main controller initializing
+2024-03-19 17:55:53 INFO  Main:35 - saved data reading
+2024-03-19 17:55:53 INFO  Main:40 - application start
+2024-03-19 17:55:53 INFO  Controller:74 - Main controller initializing
+2024-03-19 17:55:59 INFO  TaskInfoController:24 - task info window initializing
+2024-03-19 17:55:59 ERROR Controller:127 - error loading task-info.fxml
+2024-03-19 17:56:00 INFO  TaskInfoController:24 - task info window initializing
+2024-03-19 17:56:00 ERROR Controller:127 - error loading task-info.fxml
+2024-03-19 17:57:14 INFO  Main:35 - saved data reading
+2024-03-19 17:57:14 INFO  Main:40 - application start
+2024-03-19 17:57:14 INFO  Controller:74 - Main controller initializing
+2024-03-19 17:57:19 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 17:59:50 INFO  Main:35 - saved data reading
+2024-03-19 17:59:50 INFO  Main:40 - application start
+2024-03-19 17:59:50 INFO  Controller:74 - Main controller initializing
+2024-03-19 18:00:24 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:00:38 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:01:52 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:02:35 INFO  TaskInfoController:24 - task info window initializing
+2024-03-19 18:02:35 ERROR Controller:127 - error loading task-info.fxml
+2024-03-19 18:02:54 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:05:44 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:05:59 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:14:57 INFO  Main:35 - saved data reading
+2024-03-19 18:14:57 INFO  Main:40 - application start
+2024-03-19 18:14:57 INFO  Controller:74 - Main controller initializing
+2024-03-19 18:15:25 INFO  NewEditController:89 - new/edit window initializing
+2024-03-19 18:15:29 INFO  NewEditController:89 - new/edit window initializing

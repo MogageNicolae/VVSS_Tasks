@@ -81,6 +81,7 @@ public class NewEditController {
                 break;
             case "btnEdit" : initEditWindow("Edit Task");
                 break;
+            default: log.error("no button was clicked");
         }
     }
 
