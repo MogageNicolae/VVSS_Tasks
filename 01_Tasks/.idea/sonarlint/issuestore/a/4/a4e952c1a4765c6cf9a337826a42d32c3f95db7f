@@ -9,6 +9,8 @@ u
 java:S1444"4Make this "public static savedTasksFile" field final(ÚÄ±íÿÿÿÿÿJ$09131625-3fc0-41ec-9f49-5747c6c90620
 •	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù‰ï…J$8aa060e5-5c39-43f3-b449-129fcc39a823
 •	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ðÕÈ€J$0d0729b7-628a-4cf1-8e9e-e94bb689c2bc
+x
+java:S1450"VRemove the "service" field and declare it as a local variable in the relevant methods.(é±¨ãÿÿÿÿÿ8¶Ïµæå1
 |	java:S125"<This block of commented-out lines of code should be removed.(é±¨ãÿÿÿÿÿJ$d1dfc5f6-37fd-44bc-8ea4-72e8c0a7bed1
 w	java:S125*"<This block of commented-out lines of code should be removed.(€â³ÖJ$0a5c609b-87a2-413f-b8c6-3e7fcc17fe1f
 h

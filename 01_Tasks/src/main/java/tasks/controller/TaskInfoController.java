@@ -23,7 +23,7 @@ public class TaskInfoController {
     public void initialize(){
         log.info("task info window initializing");
         Task currentTask = (Task)Controller.mainTable.getSelectionModel().getSelectedItem();
-        labelTitle.setText("Title: " + currentTask.getTitle());
+        labelTitle.setText("Title: " + currentTask.getDescription());
         labelStart.setText("Start time: " + currentTask.getFormattedDateStart());
         labelEnd.setText("End time: " + currentTask.getFormattedDateEnd());
         labelInterval.setText("Interval: " + currentTask.getFormattedRepeated());

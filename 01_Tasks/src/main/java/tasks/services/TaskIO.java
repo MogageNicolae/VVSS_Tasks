@@ -26,8 +26,8 @@ public class TaskIO {
         try {
             dataOutputStream.writeInt(tasks.size());
             for (Task t : tasks){
-                dataOutputStream.writeInt(t.getTitle().length());
-                dataOutputStream.writeUTF(t.getTitle());
+                dataOutputStream.writeInt(t.getDescription().length());
+                dataOutputStream.writeUTF(t.getDescription());
                 dataOutputStream.writeBoolean(t.isActive());
                 dataOutputStream.writeInt(t.getRepeatInterval());
                 if (t.isRepeated()){
@@ -242,7 +242,7 @@ public class TaskIO {
     ////service methods for writing
     private static String getFormattedTask(Task task){
         StringBuilder result = new StringBuilder();
-        String title = task.getTitle();
+        String title = task.getDescription();
         if (title.contains("\"")) title = title.replace("\"","\"\"");
         result.append("\"").append(title).append("\"");
 

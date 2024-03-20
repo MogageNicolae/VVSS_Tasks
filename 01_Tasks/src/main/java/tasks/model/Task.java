@@ -9,7 +9,7 @@ import java.util.Date;
 
 
 public class Task implements Serializable, Cloneable {
-    private String title;
+    private String description;
     private Date time;
     private Date start;
     private Date end;
@@ -17,17 +17,17 @@ public class Task implements Serializable, Cloneable {
     private boolean active;
 
     private static final Logger log = Logger.getLogger(Task.class.getName());
-    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
     public static SimpleDateFormat getDateFormat(){
-        return sdf;
+        return simpleDateFormat;
     }
     public Task(String title, Date time){
         if (time.getTime() < 0) {
             log.error("time below bound");
             throw new IllegalArgumentException("Time cannot be negative");
         }
-        this.title = title;
+        this.description = title;
         this.time = time;
         this.start = time;
         this.end = time;
@@ -41,19 +41,19 @@ public class Task implements Serializable, Cloneable {
             log.error("interval < than 1");
             throw new IllegalArgumentException("interval should me > 1");
         }
-        this.title = title;
+        this.description = title;
         this.start = start;
         this.end = end;
         this.interval = interval;
         this.time = start;
     }
 
-    public String getTitle() {
-        return title;
+    public String getDescription() {
+        return description;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setDescription(String description) {
+        this.description = description;
     }
     public boolean isActive(){
         return this.active;
@@ -121,10 +121,10 @@ public class Task implements Serializable, Cloneable {
     //duplicate methods for TableView which sets column
     // value by single method and doesn't allow passing parameters
     public String getFormattedDateStart(){
-        return sdf.format(start);
+        return simpleDateFormat.format(start);
     }
     public String getFormattedDateEnd(){
-        return sdf.format(end);
+        return simpleDateFormat.format(end);
     }
     public String getFormattedRepeated(){
         if (isRepeated()){
@@ -147,12 +147,12 @@ public class Task implements Serializable, Cloneable {
         if (!end.equals(task.end)) return false;
         if (interval != task.interval) return false;
         if (active != task.active) return false;
-        return title.equals(task.title);
+        return description.equals(task.description);
     }
 
     @Override
     public int hashCode() {
-        int result = title.hashCode();
+        int result = description.hashCode();
         result = 31 * result + time.hashCode();
         result = 31 * result + start.hashCode();
         result = 31 * result + end.hashCode();
@@ -164,7 +164,7 @@ public class Task implements Serializable, Cloneable {
     @Override
     public String toString() {
         return "Task{" +
-                "title='" + title + '\'' +
+                "title='" + description + '\'' +
                 ", time=" + time +
                 ", start=" + start +
                 ", end=" + end +

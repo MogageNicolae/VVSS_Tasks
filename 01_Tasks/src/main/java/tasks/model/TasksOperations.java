@@ -19,7 +19,7 @@ public class TasksOperations {
             Date nextTime = t.nextTimeAfter(start);
             if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
                 incomingTasks.add(t);
-                System.out.println(t.getTitle());
+                System.out.println(t.getDescription());
             }
         }
         return incomingTasks;

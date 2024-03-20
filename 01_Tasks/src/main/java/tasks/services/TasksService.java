@@ -49,4 +49,8 @@ public class TasksService {
         Iterable<Task> filtered = tasksOps.incoming(start,end);
         return filtered;
     }
+
+    public void deleteTask(Task task){
+        tasks.remove(task);
+    }
 }

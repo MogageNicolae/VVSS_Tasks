@@ -1,9 +1,9 @@
 
-\
-java:S2885" Make "sdf" an instance variable.(Έ‰νJ$3d92b352-cc48-4197-92f6-56df026864d2
-j
-java:S1940`")Use the opposite operator ("!=") instead.(‡ν€µώÿÿÿÿJ$0c0e4d29-e2f0-4568-bbdc-e03dfa4f764d
-“
-java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ξ¥­όÿÿÿÿJ$64c591bd-d994-415c-9cf2-6c3ce7fe5f0f
-•
-java:S2975°"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Η‹ΉώÿÿÿÿJ$9c32236a-6413-44fb-b455-c335944060d8
+u
+java:S2885"-Make "simpleDateFormat" an instance variable.(„Φ‡Ζϋÿÿÿÿ8“ο΅θε1J$72c06042-f594-43c2-9a34-367b6e5d281a
+q
+java:S1940`")Use the opposite operator ("!=") instead.(‡ν€µώÿÿÿÿ8‹•΅θε1J$e9b74fdd-5c56-4814-b923-bc20769a633f
+
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ξ¥­όÿÿÿÿ8•΅θε1J$206d1513-9b44-45a2-a55e-7438127495cd
+
+java:S2975°"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Η‹Ήώÿÿÿÿ8–•΅θε1J$79779e12-e776-4212-b968-b1896de502bd
