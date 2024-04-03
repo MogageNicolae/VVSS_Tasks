@@ -13,10 +13,14 @@ public class TasksService {
 
     private ArrayTaskList tasks;
 
+
     public TasksService(ArrayTaskList tasks){
         this.tasks = tasks;
     }
 
+    public void setTasks(ArrayTaskList tasks) {
+        this.tasks = tasks;
+    }
     public ObservableList<Task> getObservableList(){
         return FXCollections.observableArrayList(tasks.getAll());
     }
