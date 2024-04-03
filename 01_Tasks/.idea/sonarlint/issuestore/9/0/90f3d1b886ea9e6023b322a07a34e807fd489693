@@ -1,13 +1,13 @@
 
 k
-java:S1066+"/Merge this if statement with the enclosing one.(ÈĞÚ¨J$e658631e-bf29-4c6c-a21c-09e8bf342eec
+java:S1066*"/Merge this if statement with the enclosing one.(ÈĞÚ¨J$34d72153-a9df-4c5a-b9b5-ba1d4fdc89ec
 ‚
-java:S21845"FCast one of the operands of this multiplication operation to a "long".( …“J$12cb5b40-430c-471b-aedb-fa5b7189f8ee
-•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©Ù§šJ$34cdc49e-cc8f-4907-9c37-e3fd078c8317
-š	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿJ$41e74d2d-25bf-46e2-b5f7-16aa269d7ac9
+java:S21844"FCast one of the operands of this multiplication operation to a "long".( …“J$c40e0ce2-f1c9-46db-b855-bf23c5bb0fda
+•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©Ù§šJ$1235cda9-62d0-48c7-9310-67954b6227fc
+š	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿJ$18cd4994-7f92-4d3b-bfbe-c97989b6ab58
 
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(“–ışJ$1fc6187d-ad49-4116-8d29-980bc55e815d
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(“–ışJ$96ecbc20-40fa-46c4-ae91-e674c34a900e
 š
-java:S21427"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$27f30944-0afb-44cd-b1a0-7c1966e85474
+java:S21426"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$6bbff2c6-e846-4bf7-83f8-194dd48d44da
 h
-java:S1602?",Remove useless curly braces around statement(ÃÉş©J$f127917d-6e5f-42a3-960c-9c7002980d8d
+java:S1602>",Remove useless curly braces around statement(ÃÉş©J$8102bf91-0276-4c61-ba55-cb7ef7aded74

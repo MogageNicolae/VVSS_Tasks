@@ -26,7 +26,6 @@ public class Notificator extends Thread {
     public void run() {
         Date currentDate = new Date();
         while (true) {
-
             for (Task t : tasksList) {
                 if (t.isActive()) {
                     if (t.isRepeated() && t.getEndTime().after(currentDate)){
