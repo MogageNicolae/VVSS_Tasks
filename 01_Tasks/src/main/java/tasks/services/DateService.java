@@ -10,7 +10,7 @@ import java.util.Date;
 public class DateService {
     public static final int SECONDS_IN_MINUTE = 60;
     public static final int MINUTES_IN_HOUR = 60;
-    public static final int HOURS_IN_A_DAY = 24;
+    public static final int HOURS_IN_A_DAY = 23;
 
     private TasksService service;
 

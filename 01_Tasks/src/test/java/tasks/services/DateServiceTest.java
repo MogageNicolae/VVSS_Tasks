@@ -20,12 +20,14 @@ class DateServiceTest {
         var tasks = new ArrayTaskList();
         tasksService = new TasksService(tasks);
     }
+
     @AfterAll
     static void tearDownAll() {
         System.out.println("Tests Finished.");
         tasksService = null;
 
     }
+
     @BeforeEach
     void setUp() {
         dateService = new DateService(tasksService);
@@ -37,44 +39,61 @@ class DateServiceTest {
     }
 
     @Test
-    void ecpTest1(){
-        String time = "11:30";
-        Date noTimeDate = new Date(2007,12,11);
+    void test1() {
+        String time = "1:30";
+        Date noTimeDate = new Date(2006, 7, 12);
 
         Date result = dateService.getDateMergedWithTime(time, noTimeDate);
 
-        assertEquals(result, new Date(2007,12,11,11,30));
+        assertEquals(result, new Date(2006, 7, 12, 1, 30));
     }
 
     @Test
-    void ecpTest2(){
+    void test2() {
+        String time = "03:59";
+        Date noTimeDate = new Date(2006, 7, 12);
+
+        Date result = dateService.getDateMergedWithTime(time, noTimeDate);
+
+        assertEquals(result, new Date(2006, 7, 12, 3, 59));
+    }
+
+    @Test
+    void test3() {
+        String time = "24:30";
+        Date noTimeDate = new Date(2006, 7, 12);
+
+        try {
+            dateService.getDateMergedWithTime(time, noTimeDate);
+            assert false;
+        } catch (IllegalArgumentException e) {
+            assert true;
+        }
+    }
+
+    @Test
+    void test4() {
+        String time = "03:61";
+        Date noTimeDate = new Date(2006, 7, 12);
+
+        try {
+            dateService.getDateMergedWithTime(time, noTimeDate);
+            assert false;
+        } catch (IllegalArgumentException e) {
+            assert true;
+        }
+    }
+
+    @Test
+    void test5() {
         String time = "scoala de soferi";
-        Date noTimeDate = new Date(2007,12,11);
+        Date noTimeDate = new Date(2007, 12, 11);
 
         try {
             dateService.getDateMergedWithTime(time, noTimeDate);
             assert false;
-        }
-        catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             assert true;
         }
     }
-    @Test
-    void bvaTest1() {
-        String time = "11:";
-        Date noTimeDate = new Date(2006,07,12);
-
-        try {
-            dateService.getDateMergedWithTime(time, noTimeDate);
-            System.out.println("Test failed");
-            assert false;
-        }
-        catch (ArrayIndexOutOfBoundsException e){
-            assert true;
-        }
-
-    }
-
-
-
 }

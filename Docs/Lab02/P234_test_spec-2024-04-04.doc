@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Prj234 - mnir3166_BBT</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj234<br/>Test Suite: Prj234 - mnir3166_BBT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 04/04/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.mnir3166_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc21295">P234-37: ECP_Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc21297">P234-38: ECP_Nonvalid</a></p><p style="padding-left: 45px;"><a href="#toc_tc21299">P234-39: BVA_Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc21301">P234-40: BVA_Nonvalid</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Testing project for group 234</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : mnir3166_BBT</h1>
+<a name="toc_tc21295"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P234-37: ECP_Valid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">mnir3166</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">Nr. Ec.</td>
+			<td colspan="1" rowspan="2">EC input</td>
+			<td colspan="1" rowspan="2">EC Output</td>
+			<td colspan="2" rowspan="1">Input</td>
+			<td colspan="1" rowspan="2">Output</td>
+		</tr>
+		<tr>
+			<td>time</td>
+			<td>noTimeData</td>
+		</tr>
+		<tr>
+			<td>TC01</td>
+			<td>1, 4</td>
+			<td>Date(1:30 12.07.2006)</td>
+			<td>&quot;1:30&quot;</td>
+			<td>Date(12.07.2006)</td>
+			<td>Date(1:30 12.07.2006)</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+		<tr>
+			<th scope="col">NO. EC</th>
+			<th scope="col">Condition</th>
+			<th scope="col">Valid EC</th>
+			<th scope="col">Non-Valid EC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td colspan="1" rowspan="1">time is String and hh:mm</td>
+			<td>time is String and hh:mm</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td colspan="1" rowspan="1">noTimeData is&nbsp;Date</td>
+			<td>noTimeData is of type Date</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">mnir3166_F01:  mnir3166_F01 [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc21297"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P234-38: ECP_Nonvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">mnir3166</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<thead>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">Nr. Ec.</td>
+			<td colspan="1" rowspan="2">EC input</td>
+			<td colspan="1" rowspan="2">EC Output</td>
+			<td colspan="2" rowspan="1">Input</td>
+			<td colspan="1" rowspan="2">Output</td>
+		</tr>
+		<tr>
+			<td>time</td>
+			<td>noTimeData</td>
+		</tr>
+		<tr>
+			<td>TC04</td>
+			<td>1, 5</td>
+			<td>error message - compiler check</td>
+			<td>&quot;11:30&quot;</td>
+			<td>&quot;driving school&quot;</td>
+			<td>error message - compiler check</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+	<thead>
+		<tr>
+			<th scope="col">NO. EC</th>
+			<th scope="col">Condition</th>
+			<th scope="col">Valid EC</th>
+			<th scope="col">Non-Valid EC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td colspan="1" rowspan="1">time is String and hh:mm</td>
+			<td>time is String and hh:mm</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td colspan="1" rowspan="1">noTimeData is&nbsp;Date</td>
+			<td>&nbsp;</td>
+			<td>noTimeData is not of type Date</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">mnir3166_F01:  mnir3166_F01 [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc21299"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P234-39: BVA_Valid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">mnir3166</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">
+			<p>No TCxx_BVA</p>
+			</td>
+			<td colspan="1" rowspan="2">
+			<p>Conditie BVA</p>
+			</td>
+			<td colspan="2" rowspan="1">
+			<p>input data</p>
+			</td>
+			<td colspan="1" rowspan="2">
+			<p>output data</p>
+			</td>
+		</tr>
+		<tr>
+			<td>time</td>
+			<td>noTimeData</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>3</td>
+			<td>&quot;1:30&quot;</td>
+			<td>Date(12.07.2006)</td>
+			<td>DateTime(11:30, 12.07.2006)</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+		<tr>
+			<th scope="col">NO. EC</th>
+			<th scope="col">Condition</th>
+			<th scope="col">BVA Condition</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>3</td>
+			<td colspan="1" rowspan="1">0 &lt;= hh &lt;=23</td>
+			<td>03. hh &nbsp;= 1</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">mnir3166_F01:  mnir3166_F01 [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc21301"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P234-40: BVA_Nonvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">mnir3166</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">
+			<p>No TCxx_BVA</p>
+			</td>
+			<td colspan="1" rowspan="2">
+			<p>Conditie BVA</p>
+			</td>
+			<td colspan="2" rowspan="1">
+			<p>input data</p>
+			</td>
+			<td colspan="1" rowspan="2">
+			<p>output data</p>
+			</td>
+		</tr>
+		<tr>
+			<td>time</td>
+			<td>noTimeData</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>6</td>
+			<td>&quot;24:30&quot;</td>
+			<td>Date(12.07.2006)</td>
+			<td>throw IllegalArgumentException</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+	<thead>
+		<tr>
+			<th scope="col">NO. EC</th>
+			<th scope="col">Condition</th>
+			<th scope="col">BVA Condition</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>6</td>
+			<td colspan="1" rowspan="1">0 &lt;= hh &lt;=23</td>
+			<td>06. hh = 24</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">mnir3166_F01:  mnir3166_F01 [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
