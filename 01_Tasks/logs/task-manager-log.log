@@ -121,3 +121,7 @@
 2024-04-04 08:45:51 INFO  Main:40 - application start
 2024-04-04 08:45:52 INFO  Controller:74 - Main controller initializing
 2024-04-04 08:45:58 INFO  NewEditController:91 - new/edit window initializing
+2024-04-17 19:22:03 INFO  Main:35 - saved data reading
+2024-04-17 19:22:03 INFO  Main:40 - application start
+2024-04-17 19:22:04 INFO  Controller:74 - Main controller initializing
+2024-04-17 19:22:39 ERROR Controller:167 - error filtering tasks
