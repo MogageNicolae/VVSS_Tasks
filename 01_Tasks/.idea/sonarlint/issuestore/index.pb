@@ -63,3 +63,5 @@ G.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7,a\2\a2
 01_Tasks.iml,b\d\bdb3226c332de5405059c4c6c04ebd0397df388f
 N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
+M
+src/main/java/tasks/Lab4.java,d\7\d71e00582758185352bbc31f882b159bda742d13

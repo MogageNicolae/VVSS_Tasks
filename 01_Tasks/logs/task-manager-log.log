@@ -132,3 +132,16 @@
 2024-05-13 22:42:53 ERROR Task:41 - interval < than 1
 2024-05-13 22:44:23 ERROR Task:41 - interval < than 1
 2024-05-13 22:51:47 ERROR Task:41 - interval < than 1
+2024-05-13 23:06:15 INFO  Main:35 - saved data reading
+2024-05-13 23:06:15 INFO  Main:40 - application start
+2024-05-13 23:06:15 INFO  Controller:74 - Main controller initializing
+2024-05-13 23:07:21 INFO  Main:35 - saved data reading
+2024-05-13 23:07:21 INFO  Main:40 - application start
+2024-05-13 23:07:22 INFO  Controller:74 - Main controller initializing
+2024-05-13 23:07:48 INFO  Main:35 - saved data reading
+2024-05-13 23:07:48 INFO  Main:40 - application start
+2024-05-13 23:07:48 INFO  Controller:74 - Main controller initializing
+2024-05-13 23:07:56 INFO  NewEditController:91 - new/edit window initializing
+2024-05-13 23:08:51 INFO  Main:35 - saved data reading
+2024-05-13 23:08:51 INFO  Main:40 - application start
+2024-05-13 23:08:52 INFO  Controller:74 - Main controller initializing

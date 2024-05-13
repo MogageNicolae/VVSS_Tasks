@@ -52,6 +52,10 @@ public class Task implements Serializable, Cloneable {
         return description;
     }
 
+    public String getTitle() {
+        return description;
+    }
+
     public void setDescription(String description) {
         this.description = description;
     }

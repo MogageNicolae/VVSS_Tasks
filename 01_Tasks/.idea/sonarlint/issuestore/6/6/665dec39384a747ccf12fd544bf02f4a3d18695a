@@ -1,9 +1,11 @@
 
+{
+java:S41447"^Update this method so that its implementation is not identical to "getDescription" on line 51.(ςτΆΛ8ΙτΙχ1
 u
-java:S2885"-Make "simpleDateFormat" an instance variable.(„Φ‡Ζϋÿÿÿÿ8“ο΅θε1J$545fbf3f-f1b8-4375-bda3-51c86242a95c
+java:S2885"-Make "simpleDateFormat" an instance variable.(„Φ‡Ζϋÿÿÿÿ8“ο΅θε1J$d1c14257-7928-4207-9341-489c32f74178
 q
-java:S1940`")Use the opposite operator ("!=") instead.(‡ν€µώÿÿÿÿ8‹•΅θε1J$54b580a6-4840-47d5-ad63-d9bf327b2ba8
+java:S1940d")Use the opposite operator ("!=") instead.(‡ν€µώÿÿÿÿ8‹•΅θε1J$e840b312-c270-4894-ac7f-b2d2105d3971
 
-java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ξ¥­όÿÿÿÿ8•΅θε1J$cf623b2c-abc3-4bbd-9e5d-a2d143ea337d
+java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ξ¥­όÿÿÿÿ8•΅θε1J$f942cfa5-5659-4a3c-a556-b2a07c64412b
 
-java:S2975°"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Η‹Ήώÿÿÿÿ8–•΅θε1J$ef2612da-645a-41e0-87b1-fdc637d54c11
+java:S2975΄"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Η‹Ήώÿÿÿÿ8–•΅θε1J$049580af-2b40-4de5-b60b-eb7c63b2c975
