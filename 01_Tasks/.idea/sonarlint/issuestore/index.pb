@@ -33,3 +33,15 @@ _
 /src/test/java/tasks/repo/ArrayTaskListTest.java,a\4\a4ebd54a49d2e15116177a83a702f555752728bc
 b
 2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
+h
+8src/test/java/tasks/services/TaskServiceUnitaryTest.java,0\7\0773e9359af6f48144fc9d6906ee52c2a9f17dcc
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
+[
++src/test/java/tasks/model/TaskMockTest.java,8\9\897329aa0a5a6d542851a8781169172f2e692655
+b
+2src/test/java/tasks/integration/Step2MockTest.java,4\6\46ee03d711307c65e57adb5c31fe734ca7b4a659
+b
+2src/test/java/tasks/integration/Step3MockTest.java,8\7\873e25f84ec51a63a6ab669f652953d5bd632000
+e
+5src/test/java/tasks/services/TaskServiceMockTest.java,2\4\248dc9a8dad4a6e402cc841d4ce1532a28eded38
