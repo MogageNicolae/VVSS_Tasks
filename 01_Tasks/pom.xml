@@ -121,16 +121,6 @@
                 <version>2.22.1</version>
                 <configuration>
                     <!--                <failIfNoTests>false</failIfNoTests>-->
-                    <argLine>
-                        --add-exports tasks/tasks.services=ALL-UNNAMED
-                        --add-opens tasks/tasks.services=ALL-UNNAMED
-                        --add-exports tasks/tasks.model=ALL-UNNAMED
-                        --add-opens tasks/tasks.model=ALL-UNNAMED
-                        --add-exports tasks/tasks.repo=ALL-UNNAMED
-                        --add-opens tasks/tasks.repo=ALL-UNNAMED
-                        --add-exports tasks/tasks.integration=ALL-UNNAMED
-                        --add-opens tasks/tasks.integration=ALL-UNNAMED
-                    </argLine>
                 </configuration>
             </plugin>
             <plugin>
