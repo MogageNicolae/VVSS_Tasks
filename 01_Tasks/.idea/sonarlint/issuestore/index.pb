@@ -29,3 +29,7 @@ b
 ,src/main/java/tasks/model/ArrayTaskList.java,f\7\f77a2442ed82eb8b7386f5c9a49162f894ad8a61
 W
 'src/main/java/tasks/model/TaskList.java,f\c\fc2a13256c261b5abd00e9188b5f42e29358bf6e
+_
+/src/test/java/tasks/repo/ArrayTaskListTest.java,a\4\a4ebd54a49d2e15116177a83a702f555752728bc
+b
+2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
