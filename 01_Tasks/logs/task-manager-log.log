@@ -125,3 +125,9 @@
 2024-04-17 19:22:03 INFO  Main:40 - application start
 2024-04-17 19:22:04 INFO  Controller:74 - Main controller initializing
 2024-04-17 19:22:39 ERROR Controller:167 - error filtering tasks
+2024-05-13 22:37:07 ERROR Task:41 - interval < than 1
+2024-05-13 22:39:57 ERROR Task:41 - interval < than 1
+2024-05-13 22:40:06 ERROR Task:41 - interval < than 1
+2024-05-13 22:40:32 ERROR Task:41 - interval < than 1
+2024-05-13 22:42:53 ERROR Task:41 - interval < than 1
+2024-05-13 22:44:23 ERROR Task:41 - interval < than 1

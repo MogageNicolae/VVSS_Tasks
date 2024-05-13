@@ -1,6 +1,7 @@
 package tasks.model;
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -36,7 +37,10 @@ public class TaskMockTest {
         assertEquals("2024-05-13 11:00", dateFormat.format(repeatedTask.getEndTime()));
         assertTrue(repeatedTask.isRepeated());
         assertEquals(3600, repeatedTask.getRepeatInterval());
+        assertThrows(IllegalArgumentException.class, ()->new Task("Test Bad Task", end, start, 0));
     }
+
+
 
     @Test
     public void testSetDescription() {
