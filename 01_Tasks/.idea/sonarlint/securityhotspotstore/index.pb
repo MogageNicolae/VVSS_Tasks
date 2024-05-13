@@ -53,3 +53,11 @@ I
 logs/task-manager-log.log,0\9\0959973df7556b24c6d773e780902c3037687e4c
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Å
+Q.idea/sonarlint/securityhotspotstore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7,1\d\1d6f137ed1f3d2f0a99dd6a0a153e6f9abc39407
+w
+G.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7,a\2\a23fecf281bfe300797f845cbd9ec9025ab4ec47
+9
+	Tasks.iml,e\4\e4a1f17f000c14a51c1b4832557db4be154b6363
+<
+01_Tasks.iml,b\d\bdb3226c332de5405059c4c6c04ebd0397df388f
