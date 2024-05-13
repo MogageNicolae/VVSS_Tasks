@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Tasks" />
+        <module name="mnir3166" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_Tasks" target="11" />
+      <module name="mfir3158" target="9" />
+      <module name="Tasks" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
