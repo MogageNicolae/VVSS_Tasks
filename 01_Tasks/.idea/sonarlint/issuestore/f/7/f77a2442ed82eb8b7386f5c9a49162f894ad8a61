@@ -1,11 +1,11 @@
 
-_
-java:S25837"DChange this condition so that it does not always evaluate to "false"(İ±äÜüÿÿÿÿ
+…
+java:S25837"DChange this condition so that it does not always evaluate to "false"(İ±äÜüÿÿÿÿJ$b4d13b96-3a1d-4739-b238-fcaa297ddbef
+»
+java:S21597"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(İ±äÜüÿÿÿÿJ$5657ce0a-778b-4bcf-b311-73c12ea954a7
 •
-java:S21597"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(İ±äÜüÿÿÿÿ
-o
-java:S2975Œ"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êŠáÉûÿÿÿÿ
-U
-java:S1117"9Rename "tasks" which hides the field declared at line 11.(¬ò‡Íûÿÿÿÿ
-d
-java:S1182Œ"HUse super.clone() to create and seed the cloned instance to be returned.(êŠáÉûÿÿÿÿ
+java:S2975Œ"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êŠáÉûÿÿÿÿJ$03530e5e-62d8-401c-92e0-470a43749dd7
+{
+java:S1117"9Rename "tasks" which hides the field declared at line 11.(¬ò‡ÍûÿÿÿÿJ$44961e6f-f2cd-471b-ba3a-2b65a2b256d1
+Š
+java:S1182Œ"HUse super.clone() to create and seed the cloned instance to be returned.(êŠáÉûÿÿÿÿJ$0e05bb3b-a5a9-4ed2-92dd-d40c831436cd

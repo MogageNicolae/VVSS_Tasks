@@ -29,3 +29,5 @@ W
 'src/main/java/tasks/model/TaskList.java,f\c\fc2a13256c261b5abd00e9188b5f42e29358bf6e
 b
 2src/test/java/tasks/model/TasksOperationsTest.java,2\5\256f630053d25ab19bee195a49b509c868810e3d
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
