@@ -45,3 +45,11 @@ b
 2src/test/java/tasks/integration/Step3MockTest.java,8\7\873e25f84ec51a63a6ab669f652953d5bd632000
 e
 5src/test/java/tasks/services/TaskServiceMockTest.java,2\4\248dc9a8dad4a6e402cc841d4ce1532a28eded38
+c
+3src/test/java/tasks/repo/ArrayTaskListMockTest.java,7\0\70105c9f5a9046848ab6ba2e65e86adcc352a888
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+I
+logs/task-manager-log.log,0\9\0959973df7556b24c6d773e780902c3037687e4c
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
