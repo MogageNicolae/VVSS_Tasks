@@ -1,19 +1,17 @@
 
 ™
-java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿJ$9bd1fb01-f428-42ca-8438-212d2e3edfe2
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿJ$3f3f5904-f62c-4cb0-9319-7424f68170a1
 ›
-java:S1104"ZMake savedTasksFile a static final constant or non-public and provide accessors if needed.(ÚÄ±íÿÿÿÿÿJ$98d3402d-e823-418e-8016-cca76df1d2ef
+java:S1104"ZMake savedTasksFile a static final constant or non-public and provide accessors if needed.(ÚÄ±íÿÿÿÿÿJ$f0fb44b1-4192-400a-bb9c-35ed0718fb27
 s
-java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿJ$f1adf801-b214-45ad-a567-3979717541ac
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿJ$fb76914d-cd35-4520-8b14-8db0b7872a05
 u
-java:S1444"4Make this "public static savedTasksFile" field final(ÚÄ±íÿÿÿÿÿJ$09131625-3fc0-41ec-9f49-5747c6c90620
-•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù‰ï…J$8aa060e5-5c39-43f3-b449-129fcc39a823
-•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ðÕÈ€J$0d0729b7-628a-4cf1-8e9e-e94bb689c2bc
-x
-java:S1450"VRemove the "service" field and declare it as a local variable in the relevant methods.(é±¨ãÿÿÿÿÿ8¢Íõæî1
-|	java:S125"<This block of commented-out lines of code should be removed.(é±¨ãÿÿÿÿÿJ$d1dfc5f6-37fd-44bc-8ea4-72e8c0a7bed1
-w	java:S125*"<This block of commented-out lines of code should be removed.(€â³ÖJ$0a5c609b-87a2-413f-b8c6-3e7fcc17fe1f
+java:S1444"4Make this "public static savedTasksFile" field final(ÚÄ±íÿÿÿÿÿJ$3d67dbfe-49e7-43cb-9edc-a6a1cd4458b9
+•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù‰ï…J$1a41c11b-45aa-40fa-8bfc-70f96244f4d4
+•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ðÕÈ€J$aa5afd01-a22c-431d-9a3d-16114ba6fee0
+|	java:S125"<This block of commented-out lines of code should be removed.(é±¨ãÿÿÿÿÿJ$a65de31d-35b0-4ab9-9ccb-f681974bf83e
+w	java:S125*"<This block of commented-out lines of code should be removed.(€â³ÖJ$0f6742fc-b9ba-4899-940b-62707f25c9aa
 h
-java:S16029",Remove useless curly braces around statement(çöÔˆJ$82bd2850-3c2a-4891-adae-ff5cacd19e9a
+java:S16029",Remove useless curly braces around statement(çöÔˆJ$5d5631a2-8b21-4725-907b-6c39348f6e27
 p
-java:S1068"/Remove this unused "classLoader" private field.(ý¢°ØþÿÿÿÿJ$ccb90c26-2e64-47e4-b215-5274e4350f0d
+java:S1068"/Remove this unused "classLoader" private field.(ý¢°ØþÿÿÿÿJ$755eab66-317a-4315-8723-ea9557007b87
