@@ -1,39 +1,39 @@
 
+¡
+java:S1192O"eDefine a constant instead of duplicating this literal "IO exception reading or writing file" 4 times.(ÌÔü¦J$fd596c14-1849-43ff-bd60-a65dd249b3e4
+‚
+java:S2259R"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿJ$1e2d117b-98b3-4a20-b49a-0176e29cb820
+‚
+java:S2259`"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿJ$ef93bdbc-45c2-422d-80fa-9cb19dcb2f5f
+”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;J$69804d8b-6ae4-45ac-bef2-ff20cdb73861
+•	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»ÔJ$6430ee42-46db-4171-a27f-1f9a176c33e4
+š	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ý–ë“ûÿÿÿÿJ$efb2ccb5-285a-44e4-920e-3f74ba431d66
 {
-java:S1192O"eDefine a constant instead of duplicating this literal "IO exception reading or writing file" 4 times.(ÌÔü¦
-\
-java:S2259R"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿ
-\
-java:S2259`"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿ
-n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»Ô
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ý–ë“ûÿÿÿÿ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(Ðœê†úÿÿÿÿ
-H
-java:S2885"-Make "simpleDateFormat" an instance variable.(ËÒÌýøÿÿÿÿ
-E
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-K
-java:S14813"0Remove this unused "titleLength" local variable.(ìôå‰ÿÿÿÿÿ
-E
-java:S20930"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-E
-java:S2093J"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-E
-java:S2093X"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-E
-java:S2093|"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-F
-java:S2093‰"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+java:S1118":Add a private constructor to hide the implicit public one.(Ðœê†úÿÿÿÿJ$94270afc-fd53-40b8-8e34-81e33b1f3b4a
 n
-java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿ
-^
-java:S1659¦"BDeclare "hours" and all following declarations on a separate line.(ÚåÏ¾üÿÿÿÿ
-;
-java:S1659³"Declare "j" on a separate line.(Ù é®þÿÿÿÿ
-W	java:S125¹"<This block of commented-out lines of code should be removed.(À›¸Öûÿÿÿÿ
-=
-java:S1659Ô"!Declare "end" on a separate line.(ÍôÁÑýÿÿÿÿ
-6
-java:S1659”"Declare "j" on a separate line.(±é…
+java:S2885"-Make "simpleDateFormat" an instance variable.(ËÒÌýøÿÿÿÿJ$32fef698-db24-4bee-b4b8-10759a3e186d
+k
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$e74b67ba-8053-4129-a5aa-a8aab7653a80
+q
+java:S14813"0Remove this unused "titleLength" local variable.(ìôå‰ÿÿÿÿÿJ$e4a867bf-8065-46cf-8eb6-e2e740e3a714
+k
+java:S20930"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$c5b373ba-b5b8-421d-bc7d-513409c87fd3
+k
+java:S2093J"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$d3f81b50-1182-45fd-9aea-313ed2b49bfe
+k
+java:S2093X"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$e79b796f-5703-443b-8187-feb158d2988f
+k
+java:S2093|"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$0eec3bec-af9d-4da1-a494-e224a6108f5e
+l
+java:S2093‰"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$72e9c10a-d0f8-4071-8d44-ea8f01947107
+”
+java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿJ$008eea20-1f26-46ca-8519-98e64ac3e1d5
+„
+java:S1659¦"BDeclare "hours" and all following declarations on a separate line.(ÚåÏ¾üÿÿÿÿJ$f5b3182f-b57d-4664-bac6-f5aa21305e07
+a
+java:S1659³"Declare "j" on a separate line.(Ù é®þÿÿÿÿJ$000baec7-2c01-4b7b-9b1a-e4364127ae59
+}	java:S125¹"<This block of commented-out lines of code should be removed.(À›¸ÖûÿÿÿÿJ$d3926fec-2112-4cb3-b991-6b7da9fa836c
+c
+java:S1659Ô"!Declare "end" on a separate line.(ÍôÁÑýÿÿÿÿJ$a369cd77-cc88-45fd-bfe8-3df854f819fc
+\
+java:S1659”"Declare "j" on a separate line.(±é…J$12c514e4-c39b-4d5f-81ec-b2580b3e5a3e

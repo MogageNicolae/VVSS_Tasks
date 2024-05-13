@@ -12,13 +12,10 @@ public class TasksOperations {
         tasks.addAll(tasksList);
     }
     public Iterable<Task> incoming(Date start, Date end){
-        System.out.println(start);
-        System.out.println(end);
         ArrayList<Task> incomingTasks = new ArrayList<>();
         for (Task t : tasks) {
             Date nextTime = t.nextTimeAfter(start);
             if (nextTime != null) {
-                System.out.println(nextTime);
                 if (nextTime.before(end)) {
                     incomingTasks.add(t);
                     System.out.println(t.getDescription());
