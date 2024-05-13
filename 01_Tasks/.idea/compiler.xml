@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_Tasks" target="11" />
-      <module name="mfir3158" target="9" />
+      <module name="mnir3166" target="9" />
       <module name="Tasks" target="11" />
     </bytecodeTargetLevel>
   </component>
