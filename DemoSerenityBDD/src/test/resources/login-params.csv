@@ -1,0 +1,3 @@
+username,password,expectedMessage,valid
+asdas1,asdas1,Welcome asdas1,true
+invalidUser,invalidPass,Wrong password.,false

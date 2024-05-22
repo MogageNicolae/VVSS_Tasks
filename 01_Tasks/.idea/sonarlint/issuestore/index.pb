@@ -29,12 +29,8 @@ b
 ,src/main/java/tasks/model/ArrayTaskList.java,f\7\f77a2442ed82eb8b7386f5c9a49162f894ad8a61
 W
 'src/main/java/tasks/model/TaskList.java,f\c\fc2a13256c261b5abd00e9188b5f42e29358bf6e
-_
-/src/test/java/tasks/repo/ArrayTaskListTest.java,a\4\a4ebd54a49d2e15116177a83a702f555752728bc
 b
 2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
-h
-8src/test/java/tasks/services/TaskServiceUnitaryTest.java,0\7\0773e9359af6f48144fc9d6906ee52c2a9f17dcc
 W
 'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
 [
@@ -63,5 +59,3 @@ G.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7,a\2\a2
 01_Tasks.iml,b\d\bdb3226c332de5405059c4c6c04ebd0397df388f
 N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
-M
-src/main/java/tasks/Lab4.java,d\7\d71e00582758185352bbc31f882b159bda742d13
