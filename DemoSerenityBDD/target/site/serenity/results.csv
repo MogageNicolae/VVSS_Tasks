@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Flow test","Complete purchase flow","SUCCESS","2024-05-22T23:30:20.066803+03:00[Europe/Bucharest]","0.0","13.27"
+"Login test","Login with valid and non valid params","SUCCESS","2024-05-22T23:30:44.2190996+03:00[Europe/Bucharest]","0.0","8.76"

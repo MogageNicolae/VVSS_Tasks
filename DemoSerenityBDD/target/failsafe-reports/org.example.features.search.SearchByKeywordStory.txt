@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.example.features.search.SearchByKeywordStory
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.537 s <<< FAILURE! - in org.example.features.search.SearchByKeywordStory
-initializationError(org.example.features.search.SearchByKeywordStory)  Time elapsed: 0.011 s  <<< ERROR!
-com.google.common.util.concurrent.UncheckedExecutionException: java.lang.IllegalStateException: Unable to load cache item
-Caused by: java.lang.IllegalStateException: Unable to load cache item
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.google.inject.internal.cglib.core.$MethodWrapper
-

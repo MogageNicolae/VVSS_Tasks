@@ -1,0 +1,6 @@
+org\example\steps\serenity\EndUserSteps.class
+org\example\features\flow\FlowTest.class
+org\example\features\login\LoginTest.class
+org\example\pages\LoginPage.class
+org\example\pages\CartPage.class
+org\example\pages\ProductPage.class

@@ -1,4 +1,6 @@
-E:\VVSS\CamiVVSS_ro2022-2023\Labs\Lab05\DemoSerenityBDD\src\test\java\org\example\pages\DictionaryPage.java
-E:\VVSS\CamiVVSS_ro2022-2023\Labs\Lab05\DemoSerenityBDD\src\test\java\org\example\features\search\SearchByKeywordStory.java
-E:\VVSS\CamiVVSS_ro2022-2023\Labs\Lab05\DemoSerenityBDD\src\test\java\org\example\features\search\package-info.java
-E:\VVSS\CamiVVSS_ro2022-2023\Labs\Lab05\DemoSerenityBDD\src\test\java\org\example\steps\serenity\EndUserSteps.java
+D:\1. Repositories\VVSS_Tasks\DemoSerenityBDD\src\test\java\org\example\features\flow\FlowTest.java
+D:\1. Repositories\VVSS_Tasks\DemoSerenityBDD\src\test\java\org\example\pages\LoginPage.java
+D:\1. Repositories\VVSS_Tasks\DemoSerenityBDD\src\test\java\org\example\pages\ProductPage.java
+D:\1. Repositories\VVSS_Tasks\DemoSerenityBDD\src\test\java\org\example\steps\serenity\EndUserSteps.java
+D:\1. Repositories\VVSS_Tasks\DemoSerenityBDD\src\test\java\org\example\pages\CartPage.java
+D:\1. Repositories\VVSS_Tasks\DemoSerenityBDD\src\test\java\org\example\features\login\LoginTest.java
